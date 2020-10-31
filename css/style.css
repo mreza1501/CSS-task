@@ -1,0 +1,358 @@
+body{
+  margin: 0;
+  font-family: Montserrat;
+  color: #14274A;
+  display: block;
+}
+
+.header{
+  background: url(../images/home.png);
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  font-family: Adobe Garamond Pro;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.lux-head{
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 150px;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background: #E0B973;
+  position: absolute;
+  margin-left: 150px;
+}
+
+.hot-head{
+  font-size: 11px;
+  letter-spacing: 8px;
+}
+
+nav ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 30px;
+  padding-right: 50px;
+}
+
+nav ul li{
+  margin-right: 80px;
+  display: inline;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.header-container{
+    font-family: Montserrat;
+    padding-top: 200px;
+    padding-left: 100px;
+    color: white;
+}
+
+.header-container p{
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+
+.lux-content{
+  font-size: 6rem;
+  font-family: Adobe Garamond Pro;
+  letter-spacing: 12px;
+  margin: 0;
+}
+
+.hotel-content{
+  margin: 0;
+  font-family: Adobe Garamond Pro;
+  letter-spacing: 5px;
+}
+
+.book-now{
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+	padding: 12px;
+	border-radius: 10px;
+	background: #E0B973;
+	border:0;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+.book-button p{
+	text-align:center;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size:15px;
+	margin-top: 50px;
+	color: white;
+}
+
+.down-arrow{
+	display: block;
+	margin:auto;
+	width: 40px;
+	text-align: center;
+	background: white;
+	padding: 2px;
+	cursor: pointer;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 100%;
+}
+
+h1{
+  font-family: Adobe Garamond Pro;
+}
+
+
+h3{
+  font-family: Adobe Garamond Pro;
+  font-size: 40px;
+  margin: 0;
+}
+
+h4{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+p{
+  font-family: Montserrat;
+}
+
+
+.top-container{
+  background-image: url(../images/home.png);
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mid-container{
+  width: 80%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.mid-container p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.room-row{
+  text-align: start;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  padding-left: 30px;
+  border-left: solid 2px;
+}
+
+.room-img{
+  float: right;
+  width: 50%;
+  margin-left: 30px;
+}
+
+.beach-img{
+  float: right;
+  width: 50%;
+  margin-left: 30px;
+}
+
+.bot-container{
+  font-family: Adobe Garamond Pro;
+  text-align: center;
+}
+
+.Button1 {
+	background-color:#e0ba73;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Montserrat;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 10px;
+	text-decoration:none;
+  margin-right: 10px;
+
+}
+
+.Button1:hover {
+	background-color:#e0ba73;
+}
+
+.Button1:active {
+	position:relative;
+	top:1px;
+}
+
+.Button2 {
+	background-color:#e0ba73;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Montserrat;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+}
+
+.Button2:hover {
+	background-color:#e0ba73;
+}
+
+.Button2:active {
+	position:relative;
+	top:1px;
+}
+
+
+footer{
+  background: #14274A;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.segitiga{
+  height: 0px;
+  width: 0px;
+  border-bottom: solid 40px #14274A;
+  border-left: solid 60px transparent;
+  border-right: solid 60px transparent;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.col-3{
+  float: left;
+  width: 25%;
+  padding: 30px;
+}
+
+.coll-2{
+  float: left;
+  width: 25%;
+  padding: 30px;
+}
+
+.row-2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo-footer{
+  width: 40%;
+  text-align: center;
+}
+
+.luxury-footer{
+	font-family: Adobe Garamond Pro;
+	font-size: 1.5rem;
+	line-height: 0;
+  letter-spacing: 5px;
+}
+
+.hotel-footer{
+	font-family: Adobe Garamond Pro;
+	font-size: 0.75rem;
+	line-height: 1;
+  letter-spacing: 5px;
+}
+
+.adress-footer{
+	font-family: Montserrat;
+	font-size: 0.7rem;
+}
+
+footer ul {
+	list-style-type: none;
+}
+footer ul li a{
+	color: white;
+	font-size: 0.8rem;
+	text-decoration: none;
+}
+
+footer ul li a:hover{
+	color:black;
+}
+
+.form-footer{
+	padding:3px;
+	background: #E0B973;
+}
+
+.form-footer input{
+	background:#14274A;
+	color: white;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:none;
+}
+
+.form-footer button{
+	padding:10px;
+	background-color: #E0B973;
+	border:1px solid #14274A;
+	cursor: pointer;
+	padding-right: 14px;
+	font-weight: bold;
+}
+
+.form-footer button:hover{
+	background-color: black;
+	color: white;
+}
+
+.fa{
+	margin-right: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .col-3{
+  	width: 100%;
+  }
+}
